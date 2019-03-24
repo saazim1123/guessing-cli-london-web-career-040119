@@ -9,7 +9,7 @@ def run_guessing_game
   answer.to_i = " "
   
   until answer == random_number
-    if user.to_i == random_number
+    if answer == random_number
       puts "You guessed the correct number!"
       
     else 
