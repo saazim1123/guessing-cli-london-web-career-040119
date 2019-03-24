@@ -6,7 +6,9 @@ def run_guessing_game
   puts "Please enter a number or type exit to quit the game:"
   user = gets.chomp
   
-  until user == random_number
+  answer.to_i = " "
+  
+  until answer == random_number
     if user.to_i == random_number
       puts "You guessed the correct number!"
       
