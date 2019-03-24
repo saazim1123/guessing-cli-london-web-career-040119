@@ -7,6 +7,7 @@ def run_guessing_game
   user = gets.chomp
   
   answer.to_i = " "
+  answer = gets.chomp
   
   until answer == random_number
     if answer == random_number
